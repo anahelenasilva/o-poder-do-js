@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Button } from "../components/Button";
-import { Categories } from "../components/Categories";
-import { Header } from "../components/Header";
-import { Menu } from "../components/Menu";
-import { TableModal } from "../components/TableModal";
+import { Button } from "../Button";
+import { Categories } from "../Categories";
+import { Header } from "../Header";
+import { Menu } from "../Menu";
+import { TableModal } from "../TableModal";
 import { Container, CategoriesContainer, MenuContainer, FooterContainer, Footer } from "./styles";
 
 export function Main() {
