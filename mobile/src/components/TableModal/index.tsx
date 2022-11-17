@@ -16,6 +16,7 @@ export function TableModal({ visible, onClose, onSave }: TableModalProps) {
 
   function handleSalve() {
     onSave(table);
+    setTable("");
     onClose();
   }
 
